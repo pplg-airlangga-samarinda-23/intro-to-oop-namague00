@@ -19,19 +19,23 @@ class Mobil {
         $this -> bahanbaru = $bahanbaru;
     }
     public function melaju() {
-        echo "Mobil sedang melaju.";
+        echo "Mobil sedang melaju."."<br>";
+        echo "bahan bakar berkurang 30"."<br>";
         $this ->  bahanbakar -= 30;
     }
     public function belok() {
-        echo "Mobil sedang belok.";
+        echo "Mobil sedang belok."."<br>";
+        echo "bahan bakar berkurang 50"."<br>";
         $this ->  bahanbakar -= 50;
     }
     public function berhenti() {
-        echo "Mobil sedang berhenti.";
+        echo "Mobil sedang berhenti."."<br>";
+        echo "bahan bakar berkurang 20"."<br>";
         $this ->  bahanbakar -= 20;
     }
     public function mundur() {
-        echo "Mobil sedang mundur.";
+        echo "Mobil sedang mundur."."<br>";
+        echo "bahan bakar berkurang 40"."<br>";
         $this ->  bahanbakar -= 40;
     }
 
